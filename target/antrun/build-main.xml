@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <echo>C:\Users\DELL PC\Documents\workspace-sts-3.9.3.RELEASE\maven-plugin-prac\target\classes</echo>
+  <copy todir="C:\Users\DELL PC\Documents\workspace-sts-3.9.3.RELEASE\maven-plugin-prac\target\classes/">
+    <fileset dir="src/main/"/>
+  </copy>
+</target>
+</project>
